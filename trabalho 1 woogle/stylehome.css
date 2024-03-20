@@ -1,0 +1,19 @@
+
+#formularioLogin{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+#registrar{
+    text-align: center;
+}
+#botaoregistrar{
+    margin-left:21px ;
+}
+#entrar{
+    margin-left: 750px;
+}

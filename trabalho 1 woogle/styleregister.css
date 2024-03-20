@@ -1,0 +1,16 @@
+#formularioRegistro{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin-left: 500px;
+}
+button{
+    margin-left: 650px;
+}
+footer{
+    margin-top: 65px;
+}

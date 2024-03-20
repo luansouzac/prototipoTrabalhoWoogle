@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleregister.css">
+</head>
+<body>
+    <header>
+        <a href="home.html"><img src="imagens/w.png" alt="logoTipoWoogle" style="width: 50px; height: 50px; margin-left: 5px;"></a>
+    </header>
+    <div id="formularioRegistro">
+        <form action="">
+            <h1>Woogle</h1>
+            <label for="nome">Digite seu login: </label>
+            <input type="text" name="nome" required><br>
+            <label for="email">Digite seu email</label>
+            <input type="email" name="email" required><br>
+            <label for="senha">Digite sua senha: </label>
+            <input type="password" name="senha" required><br>
+            <label for="localizou">Como localizou o site?</label>
+            <select name="localizou" id="">
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="twitter">Twitter</option>
+                <option value="instagram">Instagram</option>
+                <option value="outro">Outro</option>
+            </select><br>
+            <label for="sexo">Qual seu genero?</label>
+            <input type="radio" name="sexo" value="M">Masculino
+            <input type="radio" name="sexo" value="F">Feminino
+            <input type="radio" name="sexo" value="O">Outro
+        </form>      
+    </div>
+    <a href="index.html"><button>Registrar</button></a>
+    <footer>
+        <a href="https://www.facebook.com/" target="_blank"><img src="imagens/icone-facebookverde.png" alt="facebookEmpresa"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="imagens/icone-instagramverde.png" alt="instagramEmpresa"></a>
+        <a href="https://twitter.com/" target="_blank"><img src="imagens/icone-twitterverde.png" alt="twitterEmpresa"></a>
+        <a href="https://github.com/" target="_blank"><img src="imagens/icone-githubverde.png" alt="GitHubEmpresa"></a>
+    </footer>
+</body>
+</html>
